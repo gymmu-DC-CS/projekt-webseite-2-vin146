@@ -29,3 +29,7 @@ html {
 #Meeresschildkröte {
   width: 1200px;
 }
+
+p {
+max-width: 50%;
+}
