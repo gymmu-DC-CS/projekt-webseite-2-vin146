@@ -19,6 +19,7 @@
 -Ich habe ChatGPT gefragt, wie man mit CSS nur die Elemente einer ordered list fett machen kann. Den CSS den ich von ChatGPT bekam, habe ich übernommen. 
 -Ich habe dem Bild, welches unter dem Titel meiner Website ist, eine ID gegeben. Mit dieser ID habe ich einen CSS für die Grösse des Bildes erstellt. 
 -Ich habe mit Hilfe von ChatGPT mein Inhaltsverzeichnis mit den Untertiteln verbunden, das heisst wenn ich auf ein Element in meinem Inhaltsverzeichnis klicke, bringt es mich zu diesem dazugehörenden Untertitel in der Website. Zudem habe ich mit CSS das Scrollverhalten beim draufklicken smooth gemacht. 
+-Ich habe meinen Text überall verlängert. 
 
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
