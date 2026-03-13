@@ -19,7 +19,7 @@
 }
 
 #SchildkröteaufGras {
-  width: 300px;
+  width: 800px;
 }
 
 html {
@@ -27,13 +27,13 @@ html {
 }
 
 #Meeresschildkröte {
-  width: 600px;
+  width: 800px;
 }
 
 p {
-max-width: 50%;
+max-width: 65%;
 }
 
 ul li {
-max-width: 50%;
+max-width: 65%;
 }
