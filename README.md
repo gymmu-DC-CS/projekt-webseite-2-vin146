@@ -24,4 +24,17 @@
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
 -ChatGPT hat mir einen CSS erstellt, mit dem ich nur die Elemente einer ordered list fett mache. 
+-ChatGPT hat mir gezeigt, wie ich die Elemente in meinem Inhaltsverzeichnis anklickbarmache, damit ich direkt zum dazugehörenden Abschnitt in der Website gebracht werde: 
 
+Recherchen:
+
+-Wie mache ich mein Inhaltsverzeichnis anklickbar, damit ich direkt zum dazugehörenden Abschnitt in der Website gebracht werde: 
+
+Der HTML-Tag `<a href="#was-sind-schildkroeten">Was sind Schildkröten?</a>` macht Folgendes:
+1. `<a>` ist ein Link. Alles, was zwischen `<a>` und `</a>` steht, wird anklickbar.
+2. `href="#was-sind-schildkroeten"` gibt das Ziel des Links an.
+Das `#` bedeutet, dass der Link auf derselben Seite zu einem bestimmten Element springt.
+Der Text nach `#` entspricht der ID des Elements, zu dem gesprungen werden soll, z. B. `<h2 id="was-sind-schildkroeten">Was sind Schildkröten?</h2>`.
+3. Wenn man auf den Link klickt, sucht der Browser das Element mit der angegebenen ID und scrollt automatisch dorthin.
+4. Optional kann man mit CSS `html { scroll-behavior: smooth; }` einstellen, dass das Scrollen sanft abläuft, statt abrupt.
+Kurz gesagt: Der Link macht einen klickbaren Text, der die Seite zu einem bestimmten Untertitel scrollen lässt.
