@@ -23,7 +23,7 @@
 -Ich habe ein Video unter der Zusammenfassung eingefügt. Ich habe dafür ähnlich programmiert wie beim einfügen eines Bildes, einfach dass ich noch controls hinschreiben musste, damit man das Video abspielen (anklicken) kann. Ich musste die mp4 Datei am gleichen Ort in OneDrive abspeichern wo auch meine Website abgespeichert ist, damit es überhaupt funktioniert. 
 -Ich habe meine Texte p mit einem CSS auf die Breite 50% gesetzt. 
 -Ich habe meine Texte ul mit einem CSS auf die Breite 50% gesetzt. 
--Ich habe ein neues Bild beim Unterthema Lebensraum eingesetzt mit container, damit das Bild rechts neben dem Text ist.  
+-Ich habe ein neues Bild beim Unterthema Lebensraum eingesetzt.
 
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
