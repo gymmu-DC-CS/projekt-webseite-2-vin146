@@ -21,3 +21,7 @@
 #SchildkröteaufGras {
   width: 300;
 }
+
+html {
+  scroll-behavior: smooth;
+}
