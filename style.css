@@ -13,3 +13,7 @@
     body {
         background-color: rgb(170, 255, 142);
     }
+
+    ol li {
+  font-weight: bold;
+}
