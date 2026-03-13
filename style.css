@@ -38,6 +38,8 @@ ul li {
 max-width: 65%;
 }
 
-#SüsswasserschildkrötenaufStein {
-   style="float: right; margin-left: 15px; width:150px;
-}
+.SuesswasserschildkroetenAufStein {
+  float: right;
+  margin-left: 15px;
+  width: 150px;
+  }
