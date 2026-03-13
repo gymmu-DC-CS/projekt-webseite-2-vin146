@@ -39,7 +39,7 @@ max-width: 65%;
 }
 
 table {
-width:100%;
+width:50%;
 border-collapse:collapse;
 text-align:center;
 }
@@ -50,13 +50,13 @@ padding:10px;
 }
 
 #WasserschildkröteOzean {
-  width: 650px;
+  width: 200px;
 }
 
 #WasserschildkröteSüssgewässer {
-  width: 650px;
+  width: 200px;
 }
 
 #LandschildkröteLand {
-  width: 650px;
+  width: 200px;
 }
