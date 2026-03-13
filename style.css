@@ -33,3 +33,7 @@ html {
 p {
 max-width: 50%;
 }
+
+ul li {
+max-width: 50%;
+}

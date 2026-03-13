@@ -21,7 +21,8 @@
 -Ich habe mit Hilfe von ChatGPT mein Inhaltsverzeichnis mit den Untertiteln verbunden, das heisst wenn ich auf ein Element in meinem Inhaltsverzeichnis klicke, bringt es mich zu diesem dazugehörenden Untertitel in der Website. Zudem habe ich mit CSS das Scrollverhalten beim draufklicken smooth gemacht. 
 -Ich habe meinen Text überall verlängert.
 -Ich habe ein Video unter der Zusammenfassung eingefügt. Ich habe dafür ähnlich programmiert wie beim einfügen eines Bildes, einfach dass ich noch controls hinschreiben musste, damit man das Video abspielen (anklicken) kann. Ich musste die mp4 Datei am gleichen Ort in OneDrive abspeichern wo auch meine Website abgespeichert ist, damit es überhaupt funktioniert. 
--Ich habe meine Texte p mit einem CSS auf die Breite 50% gesetzt.  
+-Ich habe meine Texte p mit einem CSS auf die Breite 50% gesetzt. 
+-Ich habe meine Texte ul mit einem CSS auf die Breite 50% gesetzt.  
 
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
