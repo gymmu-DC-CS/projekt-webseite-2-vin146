@@ -30,6 +30,7 @@
 -Ich habe eine dritte Tabelle erstellt mit 2 Zeilen und 3 Spalten. 
 -Ich habe eine vierte Tabelle erstellt, mit 3 Zeilen und 1 Spalte. 
 -Ich habe ein Bild unter Schutz der Schildkröten eingefügt.
+-Ich habe eine fünfte Tabelle erstellt, mit 3 Zeilen und 2 Spalten. 
 
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
