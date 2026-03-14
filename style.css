@@ -15,11 +15,6 @@
 
     h1 {
     background-color: rgb(228, 238, 172);
-    display: inline-block;
-    padding: 0 20px;    
-    line-height: 50px;  
-    text-align: center;
-    border-radius: 5px;
   }
 
     h2 {
@@ -28,20 +23,10 @@
 
     h2 {
     background-color: rgb(228, 238, 172);
-    display: inline-block;
-    padding: 0 20px;   
-    line-height: 50px;  
-    text-align: center;
-    border-radius: 5px;
   }
 
     p {
     background-color: rgb(129, 238, 255);
-    display: inline-block;
-    padding: 0 20px;    
-    line-height: 50px;  
-    text-align: center;
-    border-radius: 5px;
   }
 
     ol li {
