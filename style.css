@@ -1,21 +1,13 @@
-    #background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-     filter: brightness(100%);
+    body {
+        background-color: rgb(170, 255, 142);
   }
-     
+    
     h1 {
         color: rgb(17, 93, 21)
-    }
+  }
 
     h1 {
     background-color: rgb(228, 238, 172);
-    width: 750px;
   }
 
     h2 {
@@ -24,25 +16,6 @@
 
     h2 {
     background-color: rgb(228, 238, 172);
-    width: 750px;
-  }
-
-  p {
-    background-color: rgb(129, 238, 255);
-  }
-
-  ol {
-    background-color: rgb(129, 238, 255);
-    width: 750px;
-  }
-
-  ul {
-    background-color: rgb(129, 238, 255);
-    width: 750px;
-  }
-
-  table {
-    background-color: rgb(129, 238, 255);
   }
 
     ol li {
