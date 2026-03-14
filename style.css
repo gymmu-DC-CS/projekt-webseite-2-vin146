@@ -40,8 +40,24 @@ html {
   scroll-behavior: smooth;
 }
 
-#Meeresschildkröte {
+.video-box {
+  position: relative;
   width: 775px;
+}
+
+#LandschildkröteamLaufen {
+  width: 775px;
+}
+
+.video-text {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 8px black;
 }
 
 p {
