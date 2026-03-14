@@ -25,7 +25,19 @@
     background-color: rgb(228, 238, 172);
   }
 
-    p {
+  p {
+    background-color: rgb(129, 238, 255);
+  }
+
+  ol {
+    background-color: rgb(129, 238, 255);
+  }
+
+  ul {
+    background-color: rgb(129, 238, 255);
+  }
+
+  table {
     background-color: rgb(129, 238, 255);
   }
 
