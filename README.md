@@ -1,53 +1,108 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pAqJXfzR)
 
-05.03.2026: 
--Ich habe das HTML-Grundgerüst eingefügt.
--Ich habe mir einen Titel für meine Website ausgedacht und diesen mit h1 geschrieben. 
--Ich habe angefangen die Unterthemen meiner Website (Titel und Texte) zu machen. --> Für die Untertitel habe ich h2 verwendet und bei den Texten zu meinen Unterthemen habe ich häufig ul benutzt. 
+Lerntagebuch
 
-12.3.2026:
--Ich habe ein inhaltsverzeichnis erstellt, bei dem ich ol verwendet habe. 
--Ich habe meine Unterthemen (Titel und Texte) abgeschlossen. --> Ich habe wie bereits oben erwähnt für die Untertitel h2 verwendet und bei den Texten zu meinen Unterthemen habe ich häufig ul benutzt.
--Ich habe ein Bild unter dem Titel der Website eingefügt.
--Ich habe alle h2 und h1 Texte mit color dunkelgrün gemacht. 
--Den Hintergrund der Website habe ich mit background-clor hellgrün gemacht.
--Den Hintergrund aller h2 Texte habe ich mit background-color beige gemacht und die Hintergrundfarbe von allen h1 Texte habe ich mit backgorund-color gelb gemacht.
+05.03.2026 - Erste Inhalte der Website
+1. Was ich versucht habe zu tun
+Ich habe das HTML-Grundgerüst eingefügt und angefangen, Inhalte über Schildkröten zu schreiben. Ausserdem habe ich einen Titel und Unterthemen erstellt.
+2. Wo ich Hilfe gefunden habe
+Eigene Überlegungen und Hilfe von ChatGPT.
+3. Was ich daraus gelernt habe
+Ich habe gelernt, wie man Überschriften und Inhalte in HTML strukturiert:
+•	<h1> wird für den Haupttitel einer Website verwendet.
+•	<h2> wird für Untertitel oder Abschnitte benutzt.
+•	<p> steht für Paragraph und wird für normalen Text verwendet.
+•	<ul> ist eine ungeordnete Liste (Liste mit Punkten).
+•	<li> sind die einzelnen Elemente in einer Liste.
+4. Wie ich die Idee an mein Projekt angepasst habe
+Ich habe <h1> für den Titel meiner Website „Alles über Schildkröten“ verwendet. Die verschiedenen Themenbereiche meiner Website habe ich mit <h2> erstellt und die Texte dazu mit <p> und Listen mit <ul> und <li> strukturiert.
 
-13.03.2026
--Ich habe style.css mit meinem index.html gelinkt. 
--Ich habe alle meine CSS die ich fälschlicherweise im index.html geschrieben habe, zu style.css verschoben.
--Ich habe ChatGPT gefragt, wie man mit CSS nur die Elemente einer ordered list fett machen kann. Den CSS den ich von ChatGPT bekam, habe ich übernommen. 
--Ich habe dem Bild, welches unter dem Titel meiner Website ist, eine ID gegeben. Mit dieser ID habe ich einen CSS für die Grösse des Bildes erstellt. 
--Ich habe mit Hilfe von ChatGPT mein Inhaltsverzeichnis mit den Untertiteln verbunden, das heisst wenn ich auf ein Element in meinem Inhaltsverzeichnis klicke, bringt es mich zu diesem dazugehörenden Untertitel in der Website. Zudem habe ich mit CSS das Scrollverhalten beim draufklicken smooth gemacht. 
--Ich habe meinen Text überall verlängert.
--Ich habe ein Video unter der Zusammenfassung eingefügt. Ich habe dafür ähnlich programmiert wie beim einfügen eines Bildes, einfach dass ich noch controls hinschreiben musste, damit man das Video abspielen (anklicken) kann. Ich musste die mp4 Datei am gleichen Ort in OneDrive abspeichern wo auch meine Website abgespeichert ist, damit es überhaupt funktioniert. 
--Ich habe meine Texte p mit einem CSS auf die Breite 50% gesetzt. 
--Ich habe meine Texte ul mit einem CSS auf die Breite 50% gesetzt. 
--Ich habe eine Tabelle erstellt mit 2 Zeilen und 3 Spalten. Dafür habe ich die Hilfe von ChatGPT bekommen. 
--Ich habe eine zweite genau gleiche Tabelle erstellt, diesmal aber mit 2 Zeilen und 4 Spalten. 
+12.03.2026 - Inhaltsverzeichnis, Bilder und CSS
+1. Was ich versucht habe zu tun
+Ich habe ein Inhaltsverzeichnis erstellt, Bilder eingefügt und meine Website mit CSS gestaltet.
+2. Wo ich Hilfe gefunden habe
+Hilfe von ChatGPT und eigene Versuche.
+3. Was ich daraus gelernt habe
+Inhaltsverzeichnis
+Ich habe gelernt, wie man ein anklickbares Inhaltsverzeichnis erstellt:
+•	<a> steht für Anchor (Anker) und erstellt einen Link.
+•	href bedeutet Hypertext Reference und gibt an, wohin der Link führt.
+•	Wenn href="#beispiel" geschrieben wird, springt der Link zu einem Element mit dieser ID.
+Bilder
+Ich habe gelernt, wie man Bilder einfügt:
+<img> bedeutet image und zeigt ein Bild an.
+Wichtige Merkmale:
+•	src = Quelle des Bildes
+•	alt = Beschreibung des Bildes
+CSS Gestaltung
+Mit CSS kann man das Aussehen verändern, z.B.:
+•	color verändert die Textfarbe
+•	background-color verändert die Hintergrundfarbe
+4. Wie ich die Idee an mein Projekt angepasst habe
+Ich habe ein Inhaltsverzeichnis mit <ol> erstellt und mit <a> und href anklickbar gemacht. Ausserdem habe ich Bilder über Schildkröten eingefügt und mit CSS Farben für Überschriften und Hintergründe festgelegt.
 
-14.03.2026:
--Ich habe eine dritte Tabelle erstellt mit 2 Zeilen und 3 Spalten. 
--Ich habe eine vierte Tabelle erstellt, mit 3 Zeilen und 1 Spalte. 
--Ich habe ein Bild unter Schutz der Schildkröten eingefügt.
--Ich habe eine fünfte Tabelle erstellt, mit 3 Zeilen und 2 Spalten. 
--Ich habe mit Hilfe von ChatGPT ein Dauerschleifenvideo auf dem rechten Drittel meiner Website eingefügt. 
--Ich habe über mein Abschiedsvideo bei der Zusammenfassung einen Text über das Video gesetzt (mit Hilfe von ChatGPT).
+13.03.2026 - CSS-Datei, Tabellen und Videos
+1. Was ich versucht habe zu tun
+Ich habe meine CSS-Datei mit meiner HTML-Datei verbunden, Tabellen erstellt und ein Video eingefügt.
+2. Wo ich Hilfe gefunden habe
+Hilfe von ChatGPT.
+3. Was ich daraus gelernt habe
+CSS Datei verbinden
+Mit folgendem Code wird eine CSS-Datei mit HTML verbunden:
+<link rel="stylesheet" href="style.css">
+Tabellen
+Ich habe gelernt, wie Tabellen funktionieren:
+•	<table> erstellt eine Tabelle
+•	<tr> bedeutet table row (Tabellenzeile)
+•	<th> bedeutet table header (Überschrift einer Spalte)
+•	<td> bedeutet table data (normale Tabellenzelle)
+Tabellen in CSS
+border-collapse: collapse; bedeutet, dass Tabellenlinien zusammengeführt werden, damit nicht doppelte Linien entstehen.
+Videos
+Videos kann man mit <video> einfügen.
+Die Datei wird mit <source> angegeben.
+Ich habe MP4-Dateien verwendet, weil dieses Format von fast allen Browsern unterstützt wird.
+•	autoplay = Video startet automatisch
+•	muted = Video ist stumm
+•	loop = Video wiederholt sich ständig
+4. Wie ich die Idee an mein Projekt angepasst habe
+Ich habe Tabellen erstellt, um Bilder von verschiedenen Schildkrötenarten übersichtlich darzustellen. Ausserdem habe ich ein Video am Ende meiner Website eingefügt.
 
-Quellen:
--Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
--ChatGPT hat mir einen CSS erstellt, mit dem ich nur die Elemente einer ordered list fett mache. 
--ChatGPT hat mir gezeigt, wie ich die Elemente in meinem Inhaltsverzeichnis anklickbarmache, damit ich direkt zum dazugehörenden Abschnitt in der Website gebracht werde: 
+14.03.2026 - Layout und Dauerschleifenvideo
+1. Was ich versucht habe zu tun
+Ich habe ein Dauerschleifenvideo an der Seite der Website eingefügt und Text über ein Video gelegt.
+2. Wo ich Hilfe gefunden habe
+Hilfe von ChatGPT.
+3. Was ich daraus gelernt habe
+CSS Selektoren
+•	# bedeutet ID-Selektor
+→ spricht ein Element mit einer bestimmten ID an
+Beispiel:
+#video
+•	. bedeutet Klassen-Selektor
+Beispiel:
+.video-text
+class wird verwendet, wenn mehrere Elemente den gleichen Stil bekommen sollen.
+div Container
+<div> bedeutet division und ist ein Container, der Elemente zusammen gruppiert.
+So kann man mehrere Dinge gemeinsam gestalten oder positionieren.
+Positionierung mit CSS
+Für das Dauerschleifenvideo habe ich folgende Eigenschaften verwendet:
+•	position: absolute;
+→ Element kann frei auf der Seite positioniert werden.
+•	top, right, left
+→ bestimmen Abstände vom Rand.
+•	z-index
+→ bestimmt, welches Element über einem anderen liegt.
+•	object-fit
+→ bestimmt, wie ein Video oder Bild in seinen Bereich eingepasst wird.
+Text über Video
+•	transform: translateX(-50%)
+→ verschiebt ein Element, damit es genau zentriert ist.
+•	text-shadow
+→ fügt einen Schatten hinter dem Text hinzu, damit er besser lesbar ist.
+4. Wie ich die Idee an mein Projekt angepasst habe
+Ich habe ein Video auf der rechten Seite meiner Website eingefügt, das automatisch und in Dauerschleife läuft. Ausserdem habe ich einen Text über mein Abschiedsvideo gelegt und diesen mit CSS positioniert.
 
-Recherchen:
-
--Wie mache ich mein Inhaltsverzeichnis anklickbar, damit ich direkt zum dazugehörenden Abschnitt in der Website gebracht werde: 
-
-Der HTML-Tag `<a href="#was-sind-schildkroeten">Was sind Schildkröten?</a>` macht Folgendes:
-1. `<a>` ist ein Link. Alles, was zwischen `<a>` und `</a>` steht, wird anklickbar.
-2. `href="#was-sind-schildkroeten"` gibt das Ziel des Links an.
-Das `#` bedeutet, dass der Link auf derselben Seite zu einem bestimmten Element springt.
-Der Text nach `#` entspricht der ID des Elements, zu dem gesprungen werden soll, z. B. `<h2 id="was-sind-schildkroeten">Was sind Schildkröten?</h2>`.
-3. Wenn man auf den Link klickt, sucht der Browser das Element mit der angegebenen ID und scrollt automatisch dorthin.
-4. Optional kann man mit CSS `html { scroll-behavior: smooth; }` einstellen, dass das Scrollen sanft abläuft, statt abrupt.
-Kurz gesagt: Der Link macht einen klickbaren Text, der die Seite zu einem bestimmten Untertitel scrollen lässt.
+Quellen
+•	Texte über Schildkröten und Hilfe zu HTML/CSS: ChatGPT
