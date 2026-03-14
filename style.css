@@ -15,6 +15,7 @@
 
     h1 {
     background-color: rgb(228, 238, 172);
+    width: 750px;
   }
 
     h2 {
@@ -23,6 +24,7 @@
 
     h2 {
     background-color: rgb(228, 238, 172);
+    width: 750px;
   }
 
   p {
@@ -31,10 +33,12 @@
 
   ol {
     background-color: rgb(129, 238, 255);
+    width: 750px;
   }
 
   ul {
     background-color: rgb(129, 238, 255);
+    width: 750px;
   }
 
   table {
