@@ -26,6 +26,9 @@
 -Ich habe eine Tabelle erstellt mit 2 Zeilen und 3 Spalten. Dafür habe ich die Hilfe von ChatGPT bekommen. Ich habe in die obere Zeile Texte eingefügt und in die untere Bilder. 
 -Ich habe eine zweite genau gleiche Tabelle erstellt, diesmal aber mit 2 Zeilen und 4 Spalten. Dafür habe ich die Hilfe von ChatGPT bekommen. Ich habe in die obere Zeile Texte eingefügt und in die untere Bilder. 
 
+14.03.2026:
+-Ich habe eine dritte Tabelle erstellt mit 2 Zeilen und 3 Spalten. Dafür habe ich die Hilfe von ChatGPT bekommen. Ich habe in die obere Zeile Texte eingefügt und in die untere Bilder. 
+
 Quellen:
 -Alle meine Texte über Schildkröten wurden mit https://chatgpt.com erstellt. 
 -ChatGPT hat mir einen CSS erstellt, mit dem ich nur die Elemente einer ordered list fett mache. 
