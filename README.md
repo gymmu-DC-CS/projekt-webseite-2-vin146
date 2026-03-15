@@ -88,8 +88,8 @@ div Container
 So kann man mehrere Dinge gemeinsam gestalten oder positionieren.
 Positionierung mit CSS
 Für das Dauerschleifenvideo habe ich folgende Eigenschaften verwendet:
-•	position: absolute;
-→ Element kann frei auf der Seite positioniert werden.
+•	position: fixed;
+→ Video bleibt immer an derselben Stelle, auch beim Scrollen.
 •	top, right, left
 → bestimmen Abstände vom Rand.
 •	z-index
@@ -103,6 +103,42 @@ Text über Video
 → fügt einen Schatten hinter dem Text hinzu, damit er besser lesbar ist.
 4. Wie ich die Idee an mein Projekt angepasst habe
 Ich habe ein Video auf der rechten Seite meiner Website eingefügt, das automatisch und in Dauerschleife läuft. Ausserdem habe ich einen Text über mein Abschiedsvideo gelegt und diesen mit CSS positioniert.
+
+15.03.2026 - Video wechseln per Knopfdruck
+1. Was ich versucht habe zu tun
+Ich wollte, dass das Dauerschleifenvideo auf der rechten Seite meiner Website per Knopfdruck zwischen drei verschiedenen Videos gewechselt werden kann. Ausserdem wollte ich einen Knopf erstellen und diesen gestalten.
+2. Wo ich Hilfe gefunden habe
+Hilfe von ChatGPT.
+3. Was ich daraus gelernt habe
+HTML
+•	<button> erstellt einen Knopf, den man anklicken kann:
+o	class="video-button" → damit man den Knopf per CSS gestalten kann
+o	onclick="wechselVideo()" → ruft die JavaScript-Funktion wechselVideo() auf, wenn der Knopf gedrückt wird.
+JavaScript
+•	let aktuellesVideo = 1; → Speichert, welches Video aktuell läuft. Wird gebraucht, um zu wissen, welches Video als nächstes abgespielt werden soll.
+•	function wechselVideo() { … } → Funktion, die ausgeführt wird, wenn man auf den Knopf klickt. Funktionen in JavaScript sind Blöcke von Code, die bestimmte Aufgaben erledigen.
+•	document.getElementById("sideVideo") → sucht das Video-Element mit der ID sideVideo.
+•	video.src = "..." → ändert die Videoquelle auf das neue Video.
+•	video.play() → startet das Video, nachdem die Quelle gewechselt wurde.
+•	if … else if … else → Logik, um zwischen den drei Videos zu wechseln. Nach dem dritten Video springt es wieder zum ersten zurück.
+CSS
+•	.video-button → Knopf:
+o	position: fixed; bottom: 30px; right: 17% → Knopf unten rechts platzieren
+o	transform: translateX(50%) → verschiebt den Knopf für exakte Zentrierung
+o	padding: 12px 22px; font-size: 16px; → Grösse und Abstand des Knopfes
+o	background-color: rgba(0, 0, 0, 0.575); color: white; → Hintergrundfarbe leicht durchsichtig, Text weiss
+o	border: none; border-radius: 8px; → kein Rahmen, abgerundete Ecken durch border-radius
+o	cursor: pointer; → Mauszeiger zeigt Hand beim Hover
+o	z-index: 2; → Knopf liegt über dem Video
+•	.video-button:hover → Hover-Effekt:
+o	background-color: rgba(0,0,0,0.85); → Knopf wird dunkler, wenn Maus darüber fährt.
+Zusammenfassung der wichtigsten Punkte
+•	Mit aktuellesVideo weiss JavaScript, welches Video als nächstes abgespielt werden soll.
+•	Mit function wechselVideo() wird der Wechsel ausgelöst, wenn man auf den Knopf klickt.
+•	Mit CSS border-radius werden die Ecken des Knopfs abgerundet, damit er schöner aussieht.
+•	transform, position, z-index, object-fit sorgen dafür, dass Video und Knopf korrekt positioniert und überlagert werden.
+4. Wie ich die Idee an mein Projekt angepasst habe
+Ich habe den Knopf auf meiner Website platziert, sodass man das rechte Dauerschleifenvideo per Klick zwischen drei Videos wechseln kann. Mit JavaScript wird die Quelle des Videos ausgetauscht. Mit CSS habe ich Knopf und Video positioniert, gestylt und überlagert, sodass alles gut aussieht und funktioniert.
 
 Quellen
 •	Texte über Schildkröten und Hilfe zu HTML/CSS: ChatGPT
